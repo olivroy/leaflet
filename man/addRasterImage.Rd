@@ -93,7 +93,7 @@ maps, you can perform the projection ahead of time using
 \code{project = FALSE}.
 }
 \examples{
-\dontshow{if (rlang::is_installed("terra")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (rlang::is_installed("terra")) withAutoprint(\{ # examplesIf}
 \donttest{
 
 r <- terra::rast(xmin = -2.8, xmax = -2.79, ymin = 54.04, ymax = 54.05, nrows = 30, ncols = 30)
